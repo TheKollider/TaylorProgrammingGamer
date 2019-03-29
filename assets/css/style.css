@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+	font-size:16px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width:100%;
+}
+
+#navbar{
+	position: relative;
+	top:95vh;
+	width:100%;	
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	overflow: hidden;
+	width:70vh;
+	margin:0px auto;
+}
+
+
+#navbar li{
+	float:left;
+	display:inline;
+
+}
+
+#navbar a{
+	color:#3A5F0B;
+	text-decoration: none;
+	text-align:center;
+	font-size:1em;
+	font-weight: bold;
+	padding-right: 2vh;
+	height: 80%;
+}
+
+.bg-image{
+	background-image:url('C:/Users/leon_/Documents/GitHub/thekollider.github.io/images/bear.jpg');
+	min-height:100vh;
+
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-size: cover;
+
+	position: relative;
+}
