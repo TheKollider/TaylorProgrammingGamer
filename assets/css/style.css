@@ -84,8 +84,8 @@ html, body, html * {
 	width:20vw;
 	height:0.2vh;
 	margin:auto 39vw;
-	top:29vh;
+	top:37.5vh;
 	background:white;
 	border-radius: 2vh;
-	position: relative;
+	position: fixed;
 }
