@@ -69,7 +69,7 @@ html, body, html * {
 }
 .bg-image{
 	background-color: #121212;
-	background-image:url('https://thekollider.github.io/images/back.jpeg');
+	background-image:url('https://thekollider.github.io/images/back.jpg');
 	min-height:100vh;
 	max-height:100vh;
 
