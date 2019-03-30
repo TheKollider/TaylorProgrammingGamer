@@ -27,7 +27,7 @@ html, body, html * {
 	position: relative;
 	margin:0px 30.2vw;
 	top:80vh;
-	width:45%;	
+	width:45%;
 }
 
 #navbar ul{
@@ -56,7 +56,7 @@ html, body, html * {
 	font-size: 2.25vw;
 	margin:auto 43vw;
 	width:20vw;
-	margin-top:60%;
+	top:60%;
 	position: relative;
 }
 
@@ -69,12 +69,12 @@ html, body, html * {
 }
 .bg-image{
 	background-color: #121212;
-	background-image:url('https://thekollider.github.io/images/back.jpg');
+
 	min-height:100vh;
 	max-height:100vh;
 
 	background-position: center;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 	background-size: cover;
 
 	position: relative;
@@ -88,9 +88,4 @@ html, body, html * {
 	background:white;
 	border-radius: 2vh;
 	position: relative;
-}
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
 }
