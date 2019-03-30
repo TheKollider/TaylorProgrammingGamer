@@ -56,14 +56,14 @@ html, body, html * {
 	font-size: 2.25vw;
 	margin:auto 43vw;
 	width:20vw;
-	top:32vh;
+	margin-top:60%;
 	position: relative;
 }
 
 .name h2{
 	font-size: 1.75vw;
 	margin:auto 40.5vw;
-	width:20vw;
+	width:20%;
 	top:33.5vh;
 	position: relative;
 }
@@ -84,8 +84,13 @@ html, body, html * {
 	width:20vw;
 	height:0.2vh;
 	margin:auto 39vw;
-	top:37.5vh;
+	top:29vh;
 	background:white;
 	border-radius: 2vh;
-	position: fixed;
+	position: relative;
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
