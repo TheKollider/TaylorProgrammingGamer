@@ -20,14 +20,15 @@ html, body, html * {
 }
 
 .container{
-	width:100%;
+	width:80%;
+  margin:auto;
 }
 
 #navbar{
 	position: relative;
-	margin:0px 30.2vw;
+	margin:auto;
 	top:80vh;
-	width:45%;
+	width:45.5%;
 }
 
 #navbar ul{
@@ -54,22 +55,25 @@ html, body, html * {
 }
 .name h1{
 	font-size: 2.25vw;
-	margin:auto 43vw;
-	width:20vw;
-	top:60%;
-	position: relative;
+	margin:auto;
+  left:43.7%;
+	width:12.6%;
+	top:20%;
+	position: absolute;
 }
 
 .name h2{
 	font-size: 1.75vw;
-	margin:auto 40.5vw;
-	width:20%;
-	top:33.5vh;
-	position: relative;
+	margin:auto;
+	width:16.8%;
+  left:41.6%;
+	top:30%;
+	position: absolute;
 }
 .bg-image{
 	background-color: #121212;
-
+  /*background-image:url('https://thekollider.github.io/images/back.jpg');*/
+	background-image:url('C:/Users/leon_/Documents/GitHub/thekollider.github.io/images/back.jpg');
 	min-height:100vh;
 	max-height:100vh;
 
@@ -81,11 +85,13 @@ html, body, html * {
 }
 
 .line{
-	width:20vw;
-	height:0.2vh;
-	margin:auto 39vw;
-	top:29vh;
+  position: absolute;
+  left: 41%;
+	width:18%;
+	height:5px;
+	margin:auto;
+	top:27.5%;
+  border-radius: 10px;
 	background:white;
-	border-radius: 2vh;
-	position: relative;
+
 }
