@@ -110,8 +110,8 @@ html, body, html * {
 
 .bg-image{
 	background-color: #121212;
-  /*background-image:url('https://thekollider.github.io/images/mountain2.jpg');*/
-	background-image:url('C:/Users/leon_/Documents/GitHub/thekollider.github.io/images/5k.png');
+  background-image:url('https://thekollider.github.io/images/5k.png');
+	/*background-image:url('C:/Users/leon_/Documents/GitHub/thekollider.github.io/images/5k.png');*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
