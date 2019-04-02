@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
+    font-size: 1vw;
     text-align: center;
     vertical-align: baseline;
     background: transparent;
@@ -22,6 +22,34 @@ html{
   background-size: cover;
 }
 
+textarea {
+  height: 100px;
+  margin-top: 10px;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+label{
+  display:block;
+}
+input{
+  height:30px;
+}
+
+input[type=text], textarea{
+  margin:auto;
+  display:block;
+  text-align: left;
+  font-style: italic;
+  line-height:30px;
+  border: 1px solid;
+  padding: 0px 1%;
+  font-size: 0.8vw;
+  border-radius: 5px;
+  width:40%;
+  margin-bottom: 20px;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 html, body, html * {
   font-family: 'Roboto', sans-serif;
@@ -36,9 +64,10 @@ html, body, html * {
 #navbar{
 	position: absolute;
 	margin:auto;
-  left:27%;
+  text-align: center;
+  left:20%;
 	top:92%;
-	width:45.5%;
+	width:60%;
 }
 
 #navbar ul{
@@ -56,44 +85,47 @@ html, body, html * {
 #navbar a{
 	color:white;
 	text-decoration: none;
-	font-size:0.7vw;
-	font-weight: bold;
+	font-size:1vw;
+	font-weight: light;
 }
 
 
 #line{
   position: absolute;
-  left: 42%;
-	width:16%;
-	height:5px;
+  left: 43%;
+	width:14%;
+	height:3px;
 	margin:auto;
-	top:42.5%;
-  border-radius: 10px;
-	background:white;
+	top:48%;
+
+	background:beige;
 
 }
 
 #line-header{
-  margin: 0px auto 0px auto;
+  margin: 0px auto 3% auto;
 	width:20%;
 	height:3px;
 	top:20%;
 	background:orange;
 }
 
+
+
 .name{
 
 }
+
 .name h1{
   color:white;
 	font-size: 3vw;
-  font-weight: 700;
+  font-weight:bold;
 	margin:auto;
-  letter-spacing:5px;
+  letter-spacing:7px;
   width:25%;
   height: 10%;
   left:37.5%;
-	top:35%;
+	top:40%;
 	position: absolute;
 }
 
@@ -104,7 +136,7 @@ html, body, html * {
 	margin:auto;
   width: 20%;
   left:40%;
-	top:43.5%;
+	top:50%;
 	position: absolute;
 }
 
@@ -121,8 +153,7 @@ html, body, html * {
 }
 
 .about-me , .technical-skills, .education, .previous-projects, .contact-me{
-
-  margin-top: 10%;
+  margin-top:3%;
   position: relative;
 
 }
@@ -136,6 +167,20 @@ html, body, html * {
 }
 
 .about-me p, .technical-skills p, .education p, .previous-projects p, .contact-me p{
+  font-size:1vw;
+  text-align: center;
+}
+
+.about-me{
   margin-top: 5%;
+}
+
+.contact-me{
+}
+.submission{
+  margin:3% auto 10% auto;
+}
+
+.sumbit{
   text-align: center;
 }
