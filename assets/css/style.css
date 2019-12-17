@@ -19,13 +19,6 @@ body{
 	font-size:1.25rem;
 }
 
-html{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /**
   Utility 
 */
