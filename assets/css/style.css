@@ -153,7 +153,7 @@ html, body, html * {
 	position: relative;
 }
 
-.about-me , .technical-skills, .education, .previous-projects, .contact-me{
+.about-me, .technical-skills, .education, .previous-projects, .contact-me{
   margin-top:5vh;
   height: 30%;
   width: 100%;
@@ -171,20 +171,5 @@ html, body, html * {
 
 .about-me p, .technical-skills p, .education p, .previous-projects p, .contact-me p{
   font-size:1vw;
-  text-align: center;
-}
-
-.about-me{
-
-}
-
-.contact-me{
-}
-.submission{
-
-  margin:3% auto 10% auto;
-}
-
-.sumbit{
   text-align: center;
 }
