@@ -152,21 +152,21 @@ html, body, html * {
 	position: relative;
 }
 
-.about-me, .technical-skills, .education, .previous-projects, .contact-me{
+#about-me, #technical-skills, #education, #previous-projects, #contact-me{
   margin-top:5vh;
   height: 30%;
   width: 100%;
   position: relative;
 }
 
-.about-me h2, .technical-skills h2, .education h2, .previous-projects h2, .contact-me h2{
+#about-me h2, #technical-skills h2, #education h2, #previous-projects h2, #contact-me h2{
   text-align: center;
   font-weight: 100;
   font-style: thin;
-  font-size: 1.5rem;
+  font-size: 1#5rem;
   width:100%;
 }
 
-.about-me p, .technical-skills p, .education p, .previous-projects p, .contact-me p{
+#about-me p, #technical-skills p, #education p, #previous-projects p, #contact-me p{
   text-align: center;
 }
