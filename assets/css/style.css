@@ -1,12 +1,16 @@
+/**
+  General / Overrides
+*/
+
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 1rem;
-    text-align: center;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body{
@@ -22,72 +26,20 @@ html{
   background-size: cover;
 }
 
-textarea {
-  height: 100px;
-  margin-top: 10px;
-  line-height: 10px;
-  vertical-align: middle;
-}
-
-label{
-  display:block;
-}
-input{
-  height:30px;
-}
-
-input[type=text], textarea{
-  margin:auto;
-  display:block;
-  text-align: left;
-  font-style: italic;
-  line-height:30px;
-  border: 0.1em solid;
-  padding: 0px 1%;
-  font-size: 0.8rem;
-  border-radius: 5px;
-  width:40%;
-  margin-bottom: 20px;
-}
-
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
+
+/**
+  Utility 
+*/
 
 .container{
   width:80%;
   margin:auto;
   position: relative;
 }
-
-#navbar{
-	position: absolute;
-	margin:auto;
-  text-align: center;
-  left:20%;
-	top:92%;
-	width:60%;
-}
-
-#navbar ul{
-	padding:0;
-	list-style-type: none;
-	overflow: hidden;
-}
-
-
-#navbar li{
-	display:inline;
-	padding-left: 5px;
-}
-
-#navbar a{
-	color:white;
-	text-decoration: none;
-	font-weight: light;
-}
-
 
 #line{
   margin: auto;
@@ -106,12 +58,63 @@ html, body, html * {
   position: relative;
 }
 
+/**
+  Nav 
+*/
+
+#navbar{
+	position: absolute;
+	margin:auto;
+  text-align: center;
+  left:20%;
+	top:92%;
+	width:60%;
+}
+
+#navbar ul{
+	padding:0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#navbar li{
+	display:inline;
+	padding-left: 5px;
+}
+
+#navbar a{
+	color:white;
+	text-decoration: none;
+	font-weight: light;
+}
+
+/**
+  About Sections 
+*/
+
 #info-me{
   height:100vh;
   width:100%;
 }
 
+#about-me, #technical-skills, #education, #previous-projects, #contact-me{
+  margin-top:5vh;
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
 
+#about-me h2, #technical-skills h2, #education h2, #previous-projects h2, #contact-me h2{
+  text-align: center;
+  font-weight: 100;
+  font-style: thin;
+  font-size: 1.5rem;
+  width:100%;
+}
+
+#about-me p, #technical-skills p, #education p, #previous-projects p, #contact-me p{
+  text-align: center;
+}
 
 .name{
   margin-top:35vh;
@@ -143,7 +146,6 @@ html, body, html * {
 .bg-image{
 	background-color: #121212;
   background-image:url('https://thekollider.github.io/images/5k.png');
-	/*background-image:url('C:/Users/leon_/Documents/GitHub/thekollider.github.io/images/5k.png');*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -152,21 +154,3 @@ html, body, html * {
 	position: relative;
 }
 
-#about-me, #technical-skills, #education, #previous-projects, #contact-me{
-  margin-top:5vh;
-  height: 30%;
-  width: 100%;
-  position: relative;
-}
-
-#about-me h2, #technical-skills h2, #education h2, #previous-projects h2, #contact-me h2{
-  text-align: center;
-  font-weight: 100;
-  font-style: thin;
-  font-size: 1#5rem;
-  width:100%;
-}
-
-#about-me p, #technical-skills p, #education p, #previous-projects p, #contact-me p{
-  text-align: center;
-}
