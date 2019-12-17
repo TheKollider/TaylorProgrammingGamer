@@ -99,7 +99,7 @@ html, body, html * {
   position: relative;
 }
 
-#line-header{
+.line-header{
   width:21%;
   height:3px;
   background-color:orange;
