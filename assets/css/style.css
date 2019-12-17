@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: center;
     vertical-align: baseline;
     background: transparent;
@@ -12,7 +12,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	color:black;
-	font-size:1.25vw;
+	font-size:1.25rem;
 }
 
 html{
@@ -44,7 +44,7 @@ input[type=text], textarea{
   line-height:30px;
   border: 0.1em solid;
   padding: 0px 1%;
-  font-size: 0.8vw;
+  font-size: 0.8rem;
   border-radius: 5px;
   width:40%;
   margin-bottom: 20px;
@@ -85,7 +85,6 @@ html, body, html * {
 #navbar a{
 	color:white;
 	text-decoration: none;
-	font-size:1vw;
 	font-weight: light;
 }
 
@@ -123,7 +122,7 @@ html, body, html * {
 
 .name h1{
   color:white;
-	font-size: 3vw;
+	font-size: 3rem;
   font-weight:bold;
   letter-spacing:7px;
   text-align: center;
@@ -134,7 +133,7 @@ html, body, html * {
 
 .name h2{
   color:white;
-	font-size: 1.75vw;
+	font-size: 1.75rem;
   font-weight: normal;
   top:20%;
   text-align: center;
@@ -158,18 +157,16 @@ html, body, html * {
   height: 30%;
   width: 100%;
   position: relative;
-
 }
-.about-me h2, .technical-skills h2, .education h2, .previous-projects h2, .contact-me h2{
 
+.about-me h2, .technical-skills h2, .education h2, .previous-projects h2, .contact-me h2{
   text-align: center;
   font-weight: 100;
   font-style: thin;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   width:100%;
 }
 
 .about-me p, .technical-skills p, .education p, .previous-projects p, .contact-me p{
-  font-size:1vw;
   text-align: center;
 }
