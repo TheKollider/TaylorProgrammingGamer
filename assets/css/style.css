@@ -79,7 +79,7 @@ html, body, html * {
 
 #navbar li{
 	display:inline;
-	padding-left: 2vw;
+	padding-left: 5px;
 }
 
 #navbar a{
