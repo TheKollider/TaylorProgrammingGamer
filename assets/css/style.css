@@ -85,8 +85,8 @@ iframe {
 */
 
 #info-me{
-  height:100vh;
   width:100%;
+  margin-bottom: 100px;
 }
 
 #about-me, #technical-skills, #education, #previous-projects, #contact-me{
